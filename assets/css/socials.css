@@ -1,0 +1,61 @@
+.social-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.social-row a {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .social-row a {
+    padding: 1.5rem;
+  }
+}
+
+.follow-txt {
+  font-size: 0.75rem;
+}
+
+@media (min-width: 576px) {
+  .follow-txt {
+    font-size: 1rem;
+  }
+}
+
+.follow-btn {
+  border: none;
+  --bs-btn-color: #dbdbdb;
+  --bs-btn-bg: #3f74fb;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #2865ff;
+  --bs-btn-focus-shadow-rgb: 100,100,100;
+  --bs-btn-active-bg: #1f5cf6;
+  --bs-btn-disabled-bg: #3e5898;
+  box-shadow: 0 0 1rem #3f74fa80;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 2.5rem;
+  margin-right: 1rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.follow-btn:hover {
+  box-shadow: 0 0 2rem #3f74fab0;
+}
+
+.follow-btn .icon {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .follow-btn .icon {
+    font-size: 2rem;
+  }
+}
+

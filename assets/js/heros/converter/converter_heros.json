@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Cross-Platform World Preservation",
+        "desc": "Preserve years of creative work and survival progress by seamlessly transferring worlds from Legacy Console Edition to Java Edition. Whether you've played on Xbox 360, PS3, Wii U, or other console platforms, Legacy Converter ensures your creations survive platform transitions. The tool maintains blocks, block states, player inventories, and world data integrity throughout the conversion process using a sophisticated console parser that understands the unique save formats from legacy platforms.",
+        "img_src": "convert_to_java.png",
+        "img_caption": "TU5 tutorial world on the Xbox360 on the left, Java 1.14 converted world on the right",
+        "p1": "Supports all legacy versions from TU0 to TU75",
+        "i1": "clock-history",
+        "p2": "Converts worlds from all Legacy Console Edition platforms",
+        "i2": "floppy-fill",
+        "p3": "Preserves blocks, entities, player, and structure data",
+        "i3": "db-fill-check"
+    },
+    {
+        "title": "Version Flexibility",
+        "desc": "Choose the destination Java Edition version from 1.12 through 1.15, with ongoing development targeting support up to the latest version. This flexibility allows you to match specific requirements, mod compatibility needs, or personal preferences. The converter intelligently handles version-specific features like block flattening (1.13+) and data version numbers, ensuring full support for the target version. Default conversion target 1.13.2 for broad compatibility, but the output version may be specified via command-line arguments.",
+        "img_src": "versions_java.png",
+        "img_caption": "Java versions output 1.12 to 1.15 with works coming to 1.16 to latest",
+        "p1": "Specify exact Java version with -(version) flag for conversion output",
+        "i1": "sliders",
+        "p2": "Handles version-specific changes like block flattening and data structure differences",
+        "i2": "tabler-versions",
+        "p3": "Active development extending support to modern versions (1.21+)",
+        "i3": "tabler-timeline"
+    },
+    {
+        "title": "Batch Directory Conversion",
+        "desc": "Convert entire directories of worlds with a single command using the -batch functionality. Instead of manually converting each world file individually, point the tool at a folder containing multiple LCE save files and specify an output directory. The converter processes each world sequentially while maintaining individual world settings and characteristics. Perfect for players with extensive save collections, content creators archiving multiple projects, or anyone migrating their complete Minecraft legacy.",
+        "img_src": "batch_convert.png",
+        "img_caption": "A folder containing multiple Minecraft world files and pointing to an output folder",
+        "p1": "Process entire directories with infile -batch output_file_path syntax",
+        "i1": "tabler-folder-open",
+        "p2": "Each world converts independently with preserved integrity",
+        "i2": "tabler-settings-automation",
+        "p3": "Eliminates repetitive manual work for large save collections",
+        "i3": "tabler-time-duration-off"
+    },
+    {
+        "title": "Developer-Friendly Architecture",
+        "desc": "Built with clean, modular C++ architecture that separates concerns and promotes maintainability. The codebase includes dedicated modules for settings management, world parsing, and conversion logic, making it extensible for community contributions. Comprehensive error handling mechanisms ensure reliable operation even with edge cases or corrupted saves.",
+        "img_src": "folder_structure.png",
+        "img_caption": "Codebase folder structure",
+        "p1": "Clear separation of concerns with dedicated modules for each function",
+        "i1": "tabler-chart-bar",
+        "p2": "Robust error handling provides meaningful feedback for troubleshooting",
+        "i2": "tabler-search",
+        "p3": "Open-source design welcomes community contributions",
+        "i3": "volunteer-activism"
+    }
+]

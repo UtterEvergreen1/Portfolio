@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Optimized Performance with Multithreading",
+        "desc": "Leverage the full power of your CPU with multi-core processing for chunk generation and rendering. Each chunk is processed in parallel threads, significantly reducing load times and ensuring smooth navigation through large worlds. Experience high framerates even at extended render distances, thanks to efficient resource management and optimized rendering techniques.",
+        "img_src": "greedy_meshing.png",
+        "img_caption": "Greedy meshing reduces vertices by up to 90% on uniform surfaces",
+        "p1": "Greedy meshing (experimental) for reduced draw calls",
+        "i1": "bi-gpu-card",
+        "p2": "Memory-efficient data structures to handle large worlds",
+        "i2": "tabler-trending-down-3",
+        "p3": "Smooth framerates on large render distances",
+        "i3": "tabler-keyframes"
+    },
+    {
+        "title": "Full World Generation in Seconds",
+        "desc": "Load and mesh entire Minecraft worlds in seconds, not minutes. The optimized pipeline processes hundreds of chunks simultaneously, with intelligent priority queuing that renders chunks closest to the camera first. Thread-safe data structures prevent race conditions while maintaining maximum throughput. The system handles chunk loading, block data parsing, neighbor resolution, and mesh compilation in parallel batches.",
+        "img_src": "loading.png",
+        "img_caption": "Thousands of chunks generated and meshed in seconds",
+        "p1": "Processes hundreds of chunks simultaneously",
+        "i1": "tabler-rocket",
+        "p2": "Proirity-based loading renders nearby chunks first",
+        "i2": "tabler-gradienter",
+        "p3": "Multi-core CPU utilization for faster chunk generation",
+        "i3": "speed"
+    },
+    {
+        "title": "Accurate Ambient Occlusion & Lighting",
+        "desc": "Real-time ambient occlusion calculates shadow intensity at each vertex based on neighboring blocks, creating natural-looking corners and crevices. Combined with biome-aware colorization, grass and foliage blend seamlessly across different terrain types just like vanilla Minecraft.",
+        "img_src": "colors_lighting.png",
+        "img_caption": "Subtle shadows bring the world to life",
+        "p1": "Per-vertex AO for realistic depth",
+        "i1": "tabler-inner-shadow-top-left",
+        "p2": "Biome-based grass and foliage tinting",
+        "i2": "tabler-leaf",
+        "p3": "Smooth color transitions between biomes",
+        "i3": "tabler-wave-sine"
+    },
+    {
+        "title": "Custom Models and Shaders",
+        "desc": "Easily extend the engine with your own block models and visual effects. The flexible model system supports complex shapes beyond standard cubes, while the shader pipeline allows for post-processing effects like bloom, depth of field, and color grading. Perfect for creating unique visual styles or enhancing realism.",
+        "img_src": "customize.png",
+        "img_caption": "Tailor the visuals to your liking",
+        "p1": "Extensible model system for custom block shapes",
+        "i1": "tabler-cube-plus",
+        "p2": "Optimized shader pipeline for visual effects",
+        "i2": "tabler-wash-dry-shade",
+        "p3": "Easily add new models and shaders",
+        "i3": "extension"
+    }
+]

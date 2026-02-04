@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Seed Viewer",
+        "desc": "Explore and visualize Minecraft world seeds through an intuitive mapping interface. The Seed Viewer lets you load any world seed and preview terrain generation, biome layouts, and structure locations before entering the game. Navigate by coordinates, zoom into specific regions, and understand your world's geography at a glance, all rendered efficiently in a native desktop environment.",
+        "img_src": "seed_viewer.png",
+        "img_caption": "See the entire world at a glance with the Seed Viewer",
+        "p1": "Visual biome and terrain mapping",
+        "i1": "tabler-map",
+        "p2": "Structure location highlighting",
+        "i2": "tabler-world-search",
+        "p3": "Coordinate navigation and zoom",
+        "i3": "tabler-navigation"
+    },
+    {
+        "title": "Seed Filter",
+        "desc": "Find the right world seed without manual searching. The Seed Filter lets you define criteria such as nearby biomes, village proximity, stronghold locations, or rare structure combinations, then automatically searches for matching seeds. Save filter presets and export promising results for later exploration.",
+        "img_src": "seed_filter.png",
+        "img_caption": "Your ideal seed, found automatically",
+        "p1": "Custom criteria filtering",
+        "i1": "tabler-target-arrow",
+        "p2": "Save and load filter presets",
+        "i2": "tabler-device-floppy",
+        "p3": "Export matching seed lists",
+        "i3": "tabler-file-export"
+    },
+    {
+        "title": "Settings & Feedback Integration",
+        "desc": "Tailor the application to your workflow with comprehensive settings and built-in feedback tools. Customize display and performance options, control how data is visualized, and use the integrated feedback menu to report bugs, suggest features, or share your experience. Preferences are saved using native storage for a consistent experience across sessions.",
+        "img_src": "settings_page.png",
+        "img_caption": "Configured your way, always",
+        "p1": "Persistent user preferences",
+        "i1": "tabler-file-settings",
+        "p2": "Built-in feedback submission",
+        "i2": "tabler-message-share",
+        "p3": "Customizable display options",
+        "i3": "tabler-table-options"
+    },
+    {
+        "title": "Professional Desktop Experience",
+        "desc": "A native Windows application crafted with attention to detail, featuring a custom styling system that delivers a polished, consistent interface across Windows systems. With smooth rendering, multi-monitor DPI awareness, and single-instance protection, it offers a professional-grade user experience.",
+        "img_src": "qt_app.png",
+        "img_caption": "A modern interface designed for efficiency",
+        "p1": "Custom themed UI design",
+        "i1": "tabler-brush",
+        "p2": "Fast native performance",
+        "i2": "tabler-bolt",
+        "p3": "Multi-monitor DPI awareness",
+        "i3": "tabler-device-desktop"
+    }
+]

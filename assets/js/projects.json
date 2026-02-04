@@ -1,0 +1,39 @@
+[
+    { 
+        "title": "Seedra",
+        "img": "seedra_code.png",
+        "href": "seedra_project.html",
+        "desc": "Seedra is a C++ API for Minecraft Legacy Console Edition that replicates the game's world generation pipeline. It enables generation of biomes, structures, loot, and terrain with high accuracy and performance, providing tools for analysis, visualization, and custom world exploration.",
+        "tech": ["API", "Reverse Engineering", "Thread-Safe", "Optimized"],
+        "category": "C++", 
+        "featured": true,
+        "open_source": true
+    },
+    { 
+        "title": "Seedra Engine",
+        "img": "3d_world.png",
+        "href": "seedra_engine_project.html",
+        "desc": "Seedra Engine is an extension to Seedra and adds a high-performance Minecraft world renderer built in C++ using OpenGL. It loads and visualizes Minecraft chunk data with advanced rendering techniques including greedy meshing for optimized geometry, multi-threaded chunk loading for responsive performance, and proper transparency sorting for correct water/glass rendering. The project implements ambient occlusion for realistic lighting, biome-based colorization, and efficient neighbor chunk access for seamless world rendering. Designed for viewing legacy Minecraft worlds, it handles the complexity of block visibility culling, face optimization, and GPU memory management while maintaining smooth frame rates.",
+        "tech": ["3D","OpenGL", "MVC", "Multithreaded"],
+        "category": "C++",
+        "coming_soon": true
+    },
+    { 
+        "title": "Legacy Converter",
+        "img": "converter.png",
+        "href": "converter_project.html",
+        "desc": "Legacy Converter is a free an open source command-line utility designed to bridge the gap between Minecraft's Legacy Console Edition (LCE) and Java Edition supporting versions to 1.12 through 1.15, with planned support extending to 1.21.",
+        "tech": ["Binary Analysis", "Format Documentation"],
+        "category": "C++",
+        "coming_soon": true 
+    },
+    { 
+        "title": "Legacy Minecraft Mapper",
+        "img": "qt_app.png",
+        "href": "lmm_project.html",
+        "desc": "Legacy Minecraft Mapper is a Windows desktop application built with Qt/C++ that combines Seedra and the Converter API into a user-friendly GUI for converting and visualizing Minecraft Legacy Console Edition worlds and seeds.",
+        "tech": ["QT", "GUI"],
+        "category": "C++",
+        "coming_soon": true
+    }
+]
