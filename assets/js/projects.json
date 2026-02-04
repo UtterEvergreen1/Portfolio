@@ -13,7 +13,7 @@
         "title": "Seedra Engine",
         "img": "3d_world.png",
         "href": "seedra_engine_project.html",
-        "desc": "Seedra Engine is an extension to Seedra and adds a high-performance Minecraft world renderer built in C++ using OpenGL. It loads and visualizes Minecraft chunk data with advanced rendering techniques including greedy meshing for optimized geometry, multi-threaded chunk loading for responsive performance, and proper transparency sorting for correct water/glass rendering. The project implements ambient occlusion for realistic lighting, biome-based colorization, and efficient neighbor chunk access for seamless world rendering. Designed for viewing legacy Minecraft worlds, it handles the complexity of block visibility culling, face optimization, and GPU memory management while maintaining smooth frame rates.",
+        "desc": "Seedra Engine renders Minecraft Legacy Console Edition worlds from any seed, accurately recreating terrain, biomes, and structures. Users can choose biome scale and world size, with smooth performance and responsive navigation.",
         "tech": ["3D","OpenGL", "MVC", "Multithreaded"],
         "category": "C++",
         "coming_soon": true
