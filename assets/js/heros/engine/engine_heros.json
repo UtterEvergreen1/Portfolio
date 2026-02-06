@@ -5,7 +5,7 @@
         "img_src": "greedy_meshing.png",
         "img_caption": "Greedy meshing reduces vertices by up to 90% on uniform surfaces",
         "p1": "Greedy meshing (experimental) for reduced draw calls",
-        "i1": "bi-gpu-card",
+        "i1": "gpu-card",
         "p2": "Memory-efficient data structures to handle large worlds",
         "i2": "tabler-trending-down-3",
         "p3": "Smooth framerates on large render distances",

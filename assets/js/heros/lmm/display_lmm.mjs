@@ -1,3 +1,5 @@
-import { loadHeros } from '../display_heros.mjs';
+import loadHeros from '../display_heros.mjs';
+import getProjectColors from '../get_project_colors.mjs';
 
-loadHeros("lmm_heros.json", "lmm");
+const colors = await getProjectColors("Legacy Minecraft Mapper");
+loadHeros("lmm_heros.json", "lmm", colors);

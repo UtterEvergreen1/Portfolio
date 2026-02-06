@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Gamified Task Management",
+        "desc": "Transform your daily to-do list into an engaging experience where every completed task brings you closer to unlocking new customizations.",
+        "img_src": "gamified.png",
+        "img_caption": "Earn points by completing tasks",
+        "p1": "Complete tasks to earn points and track your productivity",
+        "i1": "target-arrow",
+        "p2": "Redeem points for custom themes and fonts",
+        "i2": "trophy",
+        "p3": "Watch your productivity grow with instant points",
+        "i3": "trending-up"
+    },
+    {
+        "title": "Intuitive Scrum Board",
+        "desc": "Experience a sleek, modern interface, making task organization feel natural and efficient across all your devices.",
+        "img_src": "mobile_scrum_board.png",
+        "img_caption": "Responsive design across all devices",
+        "p1": "Effortlessly move tasks between columns with touch or mouse",
+        "i1": "hand-click",
+        "p2": "Seamlessly manage tasks on desktop, tablet, or mobile",
+        "i2": "device-mobile",
+        "p3": "Add, complete, or delete tasks with minimal clicks",
+        "i3": "clock-bolt"
+    },
+    {
+        "title": "Personalization Shop",
+        "desc": "Make Tascade truly yours by purchasing unlockables that match your personality and preferences, all earned through your own productivity achievements.",
+        "img_src": "shop.png",
+        "img_caption": "Unlock custom themes with earned points",
+        "p1": "Choose from seasonal and mood-based color schemes",
+        "i1": "snowflake",
+        "p2": "Express yourself with diverse font options",
+        "i2": "file-typography",
+        "p3": "Spend earned points to unlock your favorite styles",
+        "i3": "moneybag-move"
+    }
+]

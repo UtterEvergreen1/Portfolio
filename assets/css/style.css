@@ -1,349 +1,367 @@
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 html, body {
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 main {
-  padding-top: 6.25rem;
-  margin-bottom: auto;
+    padding-top: 6.25rem;
+    margin-bottom: auto;
 }
 
 #footer {
-  background-color: #1f1f1f;
+    background-color: #1f1f1f;
 }
 
 #heros {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon {
+    color: var(--project-icons-color);
+    font-size: 1.75rem;
 }
 
 .disclaimer {
-  color: var(--bs-danger-border-subtle);
-  margin-bottom: 1rem;
+    color: var(--bs-danger-border-subtle);
+    margin-bottom: 1rem;
 }
 
 .figure-img {
-  max-width: 500px;
-  width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 #heros > div.container-fluid {
-  margin: 1rem 0;
-  padding: 0 2rem;
-  height: 100%;
-  width: 100%;
-  max-width: 85rem;
+    margin: 1rem 0;
+    padding: 0 2rem;
+    height: 100%;
+    width: 100%;
+    max-width: 85rem;
 }
 
 .figure {
-  width: 100%;
+    width: 100%;
 }
 
 .gradient-background {
-  background: linear-gradient(0deg, #32303a 0%, #1f1f26 100%);
+    background: linear-gradient(0deg, #32303a 0%, #1f1f26 100%);
 }
 
 .project-shadow1 {
-  box-shadow: 0 0 1rem 0.5rem rgb(40, 55, 112, 0.5);
+    box-shadow: 0 0 1rem 0.5rem rgb(40, 55, 112, 0.5);
 }
 
 .project-shadow2 {
-  box-shadow: 0 0 1rem 0.5rem rgb(31, 66, 68, 0.5);
+    box-shadow: 0 0 1rem 0.5rem rgb(31, 66, 68, 0.5);
 }
 
 .project-shadow3 {
-  box-shadow: 0 0 1rem 0.5rem rgb(79, 40, 112, 0.5);
+    box-shadow: 0 0 1rem 0.5rem rgb(79, 40, 112, 0.5);
 }
 
 @media (min-width: 768px) {
-  .img-desc-right {
-    padding-left: 6.25rem;
-  }
+    .img-desc-right {
+        padding-left: 6.25rem;
+    }
 }
 
 @media (min-width: 768px) {
-  .img-desc {
-    padding-right: 6.25rem;
-  }
+    .img-desc {
+        padding-right: 6.25rem;
+    }
 }
 
 .navbar-brand, .logo-fluid {
-  font-size: 2rem;
-  margin-right: 0;
+    font-size: 2rem;
+    margin-right: 0;
 }
 
 .logo-fluid {
-  width: 4rem;
+    width: 4rem;
 }
 
 .info-text {
-  color: #858a90;
+    color: #858a90;
 }
 
 ol, ul, menu {
-  list-style: none inside none;
-  padding: 0;
-  margin: 0;
+    list-style: none inside none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-  text-decoration: none;
-  color: #939dae;
+    text-decoration: none;
+    color: #939dae;
 }
 
 a.nav-link {
-  color: #858a90;
-  font-size: 0.75rem;
+    color: #858a90;
+    font-size: 0.75rem;
 }
 
 .icon, .fa, .bi {
-  width: 2rem;
-  display: inline-block;
-  font-size: 1.75rem;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 0.5rem;
+    width: 2rem;
+    display: inline-block;
+    font-size: 1.75rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 0.5rem;
 }
 
 .coming-soon-badge {
-  background: #c18a38;
+    background: #c18a38;
 }
 
 .open-source-badge {
-  background: #38c156;
+    background: #38c156;
 }
 
 .tech-badge {
-  background: #8538c1;
+    background: #8538c1;
 }
 
 .closed-source-badge {
-  background: #c13838;
+    background: #c13838;
 }
 
 .fit-cover {
-  box-shadow: 0 0 10rem 1rem rgba(101, 92, 156, 0.5);
+    box-shadow: 0 0 10rem 1rem rgba(101, 92, 156, 0.5);
 }
 
 @media (min-width: 576px) {
-  body {
-    font-size: 1rem;
-  }
+    body {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 576px) {
-  li {
-    line-height: 2.5rem;
-  }
+    li {
+        line-height: 2.5rem;
+    }
 }
 
 @media (min-width: 576px) {
-  a.nav-link {
-    font-size: 1rem;
-  }
+    a.nav-link {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 576px) {
-  .icon, .fa, .bi {
-    margin-right: 1rem;
-  }
+    .icon, .fa, .bi {
+        margin-right: 1rem;
+    }
 }
 
 @media (min-width: 768px) {
-  body {
-    font-size: 0.75rem;
-  }
+    body {
+        font-size: 0.75rem;
+    }
 }
 
 @media (min-width: 768px) {
-  li {
-    line-height: 2rem;
-  }
+    li {
+        line-height: 2rem;
+    }
 }
 
 @media (min-width: 768px) {
-  .icon, .fa, .bi {
-    margin-right: 0.5rem;
-  }
+    .icon, .fa, .bi {
+        margin-right: 0.5rem;
+    }
 }
 
 @media (min-width: 768px) {
-  #navcol-1 {
-    padding-left: 5rem;
-  }
+    #navcol-1 {
+        padding-left: 5rem;
+    }
 }
 
 @media (min-width: 768px) {
-  .navbar-brand {
-    margin-right: 3rem;
-  }
+    .navbar-brand {
+        margin-right: 3rem;
+    }
 }
 
 @media (min-width: 768px) {
-  .logo-fluid {
-    width: 5rem;
-    margin-right: 1rem;
-  }
+    .logo-fluid {
+        width: 5rem;
+        margin-right: 1rem;
+    }
 }
 
 @media (min-width: 992px) {
-  body {
-    font-size: 1rem;
-  }
+    body {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 992px) {
-  li {
-    line-height: 2.5rem;
-  }
+    li {
+        line-height: 2.5rem;
+    }
 }
 
 @media (min-width: 992px) {
-  .icon, .fa, .bi {
-    margin-right: 1rem;
-  }
+    .icon, .fa, .bi {
+        margin-right: 1rem;
+    }
 }
 
 @media (min-width: 992px) {
-  .open-source-badge, .coming-soon-badge, .tech-badge, .category-badge {
-    margin-right: 0.75rem;
-  }
+    .open-source-badge, .coming-soon-badge, .tech-badge, .category-badge {
+        margin-right: 0.75rem;
+    }
 }
 
 li {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .github-btn {
-  border: none;
-  width: 12.5rem;
-  --bs-btn-border-radius: 2rem;
-  --bs-btn-color: #dbdbdb;
-  --bs-btn-hover-color: #ffffff;
-  --bs-btn-focus-shadow-rgb: 100, 100, 100;
+    border: none;
+    width: 12.5rem;
+    --bs-btn-border-radius: 2rem;
+    --bs-btn-color: #dbdbdb;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 100, 100, 100;
 }
 
 .seedra-btn {
-  --bs-btn-bg: #2db33f;
-  --bs-btn-hover-bg: #1fbf34;
-  --bs-btn-active-bg: #16a629;
-  --bs-btn-disabled-bg: #215228;
-  box-shadow: 0 0 1rem #2db33f80;
+    --bs-btn-bg: #2db33f;
+    --bs-btn-hover-bg: #1fbf34;
+    --bs-btn-active-bg: #16a629;
+    --bs-btn-disabled-bg: #215228;
+    box-shadow: 0 0 1rem #2db33f80;
 }
 
 .engine-btn {
-  --bs-btn-bg: #be3b1f;
-  --bs-btn-hover-bg: #d03718;
-  --bs-btn-active-bg: #f4411c;
-  --bs-btn-disabled-bg: #73463c;
-  box-shadow: 0 0 1rem #98392480;
+    --bs-btn-bg: #be3b1f;
+    --bs-btn-hover-bg: #d03718;
+    --bs-btn-active-bg: #f4411c;
+    --bs-btn-disabled-bg: #73463c;
+    box-shadow: 0 0 1rem #98392480;
 }
 
 .lmm-btn {
-  --bs-btn-bg: #9b59b6;
-  --bs-btn-hover-bg: #c35bed;
-  --bs-btn-active-bg: #d15eff;
-  --bs-btn-disabled-bg: #825993;
-  box-shadow: 0 0 1rem #9b51ba80;
+    --bs-btn-bg: #9b59b6;
+    --bs-btn-hover-bg: #c35bed;
+    --bs-btn-active-bg: #d15eff;
+    --bs-btn-disabled-bg: #825993;
+    box-shadow: 0 0 1rem #9b51ba80;
 }
 
 .converter-btn {
-  --bs-btn-bg: #3f74fb;
-  --bs-btn-hover-bg: #2865ff;
-  --bs-btn-active-bg: #1f5cf6;
-  --bs-btn-disabled-bg: #3e5898;
-  box-shadow: 0 0 1rem #3f74fa80;
+    --bs-btn-bg: #3f74fb;
+    --bs-btn-hover-bg: #2865ff;
+    --bs-btn-active-bg: #1f5cf6;
+    --bs-btn-disabled-bg: #3e5898;
+    box-shadow: 0 0 1rem #3f74fa80;
+}
+
+.tascade-btn {
+    --bs-btn-bg: #f97316;
+    --bs-btn-hover-bg: #fa6b05;
+    --bs-btn-active-bg: #ff6d05;
+    --bs-btn-disabled-bg: #ca6620;
+    box-shadow: 0 0 1rem #ca6a27;
 }
 
 .project-card {
-  border: 2px solid #4276b4;
-  border-radius: 1rem;
-  padding: 1rem;
-  height: 100%;
-  box-shadow: 0 0.25rem 0.5rem #2239b070;
-  transition: all 0.25s;
-  user-select: none;
+    border: 2px solid #4276b4;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 100%;
+    box-shadow: 0 0.25rem 0.5rem #2239b070;
+    transition: all 0.25s;
+    user-select: none;
 }
 
-.github-btn:hover {
-  box-shadow: 0 0 2rem #2db33fb0;
+.seedra-btn:hover {
+    box-shadow: 0 0 2rem #2db33fb0;
 }
 
 .converter-btn:hover {
-  box-shadow: 0 0 2rem #3f74fab0;
+    box-shadow: 0 0 2rem #3f74fab0;
 }
 
 .engine-btn:hover {
-  box-shadow: 0 0 2rem #983924b0;
+    box-shadow: 0 0 2rem #983924b0;
 }
 
 .lmm-btn:hover {
-  box-shadow: 0 0 2rem #b057d5b0;
+    box-shadow: 0 0 2rem #b057d5b0;
+}
+
+.tascade-btn:hover {
+    box-shadow: 0 0 2rem #dd6918;
 }
 
 .project-link:focus {
-  outline: none;
+    outline: none;
 }
 
 #mainNav {
-  height: 6.25rem;
+    height: 6.25rem;
 }
 
 #mainNav, #mainNav > div {
-  background-color: #2f2f39;
-  transition: background-color 0.5s ease, opacity 0.5s ease;
+    background-color: #2f2f39;
+    transition: background-color 0.5s ease, opacity 0.5s ease;
 }
 
 #mainNav.scrolled, #mainNav.scrolled > div {
-  background-color: #1b1b1e;
-  opacity: 0.75;
+    background-color: #1b1b1e;
+    opacity: 0.75;
 }
 
 .project-card:hover, .project-link:focus-within .project-card {
-  border-color: #2ed685;
-  box-shadow: 0 0.25rem 0.5rem #2ed68599;
-  background: #27262e;
+    border-color: #2ed685;
+    box-shadow: 0 0.25rem 0.5rem #2ed68599;
+    background: #27262e;
 }
 
 .open-source-badge, .coming-soon-badge, .tech-badge, .category-badge {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .category-badge {
-  background: #be3b1f;
+    background: #be3b1f;
 }
 
 .filter-btn {
-  background: #646c78;
-  border: 2px solid transparent;
-  color: #d1dae7;
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  user-select: none;
+    background: #646c78;
+    border: 2px solid transparent;
+    color: #d1dae7;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    user-select: none;
 }
 
 .filter-btn {
-  outline: none;
-  --bs-btn-active-color: #f2f6fb;
-  --bs-btn-active-bg: #6c92cf;
-  --bs-btn-active-border-color: #256dd9;
+    outline: none;
+    --bs-btn-active-color: #f2f6fb;
+    --bs-btn-active-bg: #6c92cf;
+    --bs-btn-active-border-color: #256dd9;
 }
 
 .filter-btn.current-filter, .filter-btn.current-filter:hover, .filter-btn.current-filter:focus {
-  background: #3970c2;
-  color: white;
+    background: #3970c2;
+    color: white;
 }
 
 .filter-btn:hover, .filter-btn:focus {
-  color: #f2f6fb;
-  background-color: #738db7;
-  border-color: #3970c2;
+    color: #f2f6fb;
+    background-color: #738db7;
+    border-color: #3970c2;
 }
 

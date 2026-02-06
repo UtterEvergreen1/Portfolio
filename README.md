@@ -49,7 +49,7 @@ build/
 │   ├── img/                # Project screenshots and assets
 │   │   └── icons/          # SVG icons organized by project
 │   └── js/                 # JavaScript functionality
-│       ├── display_projects.js    # Project grid rendering
+│       ├── display_projects.mjs    # Project grid rendering
 │       ├── load_components.js     # Dynamic component loading
 │       ├── navbar_scroll.js       # Navbar scroll behavior
 │       ├── projects.json          # Project data

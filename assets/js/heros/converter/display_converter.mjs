@@ -1,3 +1,5 @@
-import { loadHeros } from '../display_heros.mjs';
+import loadHeros from '../display_heros.mjs';
+import getProjectColors from '../get_project_colors.mjs';
 
-loadHeros("converter_heros.json", "converter");
+const colors = await getProjectColors("Legacy Converter");
+loadHeros("converter_heros.json", "converter", colors);
