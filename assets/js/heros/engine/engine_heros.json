@@ -14,7 +14,7 @@
     {
         "title": "Full World Generation in Seconds",
         "desc": "Load and mesh entire Minecraft worlds in seconds, not minutes. The optimized pipeline processes hundreds of chunks simultaneously, with intelligent priority queuing that renders chunks closest to the camera first. Thread-safe data structures prevent race conditions while maintaining maximum throughput. The system handles chunk loading, block data parsing, neighbor resolution, and mesh compilation in parallel batches.",
-        "img_src": "loading.png",
+        "img_src": "chunk_building.gif",
         "img_caption": "Thousands of chunks generated and meshed in seconds",
         "p1": "Processes hundreds of chunks simultaneously",
         "i1": "tabler-rocket",
