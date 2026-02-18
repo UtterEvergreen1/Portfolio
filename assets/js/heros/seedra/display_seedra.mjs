@@ -1,5 +1,3 @@
 import loadHeros from '../display_heros.mjs';
-import getProjectColors from '../get_project_colors.mjs';
 
-const colors = await getProjectColors("Seedra");
-loadHeros("seedra_heros.json", "seedra", colors);
+loadHeros("seedra_heros.json", "seedra", "#2db33f");

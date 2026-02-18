@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Robust PostgreSQL Database Architecture",
+        "desc": "SteadyPlan uses PostgreSQL for data persistence. The schema is designed with proper relationships between users, projects, and tasks, ensuring data integrity and efficient queries. Connection pooling and prepared statements protect against SQL injection while maintaining performance.",
+        "img_src": "sql_schema.png",
+        "img_caption": "Well-structured database schema for optimal performance",
+        "p1": "Clean table relationships prevent data redundancy",
+        "i1": "database",
+        "p2": "Prepared statements secure all queries",
+        "i2": "lock",
+        "p3": "Efficient joins for fast project retrieval",
+        "i3": "arrows-join"
+    },
+    {
+        "title": "Secure Authentication & Role-Based Access",
+        "desc": "A custom PHP authentication system manages user sessions with secure password hashing. Admin and standard user roles control access to features, ensuring that only authorized users can modify projects or manage team members.",
+        "img_src": "sp_login.png",
+        "img_caption": "Secure login system with role-based access",
+        "p1": "PHP session management with proper validation",
+        "i1": "lock",
+        "p2": "Elevated permissions for administrative tasks",
+        "i2": "user-check",
+        "p3": "Add team members to projects by username",
+        "i3": "send"
+    },
+    {
+        "title": "RESTful API Backend",
+        "desc": "The backend exposes clean API endpoints for all CRUD operations on projects and tasks. JavaScript communicates asynchronously with PHP handlers, enabling smooth drag-and-drop Kanban updates without page reloads.",
+        "img_src": "sp_apis.png",
+        "img_caption": "Robust API design for seamless frontend integration",
+        "p1": "Fetch API handles all data requests",
+        "i1": "refresh",
+        "p2": "Create, read, update, delete for all entities",
+        "i2": "clipboard-list",
+        "p3": "Standard JSON for frontend consumption",
+        "i3": "json"
+    },
+    {
+        "title": "Adaptive UI with Theme Support",
+        "desc": "SteadyPlan includes dark mode support via Bootstrap's theming system, reducing eye strain and offering user preference flexibility. The responsive design adapts to any screen size while maintaining a consistent experience.",
+        "img_src": "steady_plan.png",
+        "img_caption": "Dark mode and responsive design for optimal user experience",
+        "p1": "Toggle between light and dark themes",
+        "i1": "brightness",
+        "p2": "Works on desktop, tablet, and mobile",
+        "i2": "device-mobile-check",
+        "p3": "Well thought-out layout for intuitive navigation",
+        "i3": "layout-board"
+    }
+]

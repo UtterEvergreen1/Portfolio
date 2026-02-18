@@ -6,7 +6,6 @@
         "desc": "Seedra is a C++ API for Minecraft Legacy Console Edition that replicates the game's world generation pipeline. It enables generation of biomes, structures, loot, and terrain with high accuracy and performance, providing tools for analysis, visualization, and custom world exploration.",
         "tech": ["API", "Reverse Engineering", "Thread-Safe", "Optimized"],
         "category": "C++",
-        "color": "#2db33f",
         "featured": true,
         "open_source": true
     },
@@ -17,7 +16,6 @@
         "desc": "Seedra Engine renders Minecraft Legacy Console Edition worlds from any seed, accurately recreating terrain, biomes, and structures. Users can choose biome scale and world size, with smooth performance and responsive navigation.",
         "tech": ["3D","OpenGL", "MVC", "Multithreaded"],
         "category": "C++",
-        "color": "#be3b1f",
         "coming_soon": true
     },
     { 
@@ -27,7 +25,6 @@
         "desc": "Legacy Converter is a free an open source command-line utility designed to bridge the gap between Minecraft's Legacy Console Edition (LCE) and Java Edition supporting versions to 1.12 through 1.15, with planned support extending to 1.21.",
         "tech": ["Binary Analysis", "Format Documentation"],
         "category": "C++",
-        "color": "#3f74fb",
         "coming_soon": true 
     },
     { 
@@ -37,7 +34,6 @@
         "desc": "Legacy Minecraft Mapper is a Windows desktop application built with Qt/C++ that combines Seedra and the Converter API into a user-friendly GUI for converting and visualizing Minecraft Legacy Console Edition worlds and seeds.",
         "tech": ["QT", "GUI"],
         "category": "C++",
-        "color": "#9b59b6",
         "coming_soon": true
     },
     {
@@ -47,7 +43,6 @@
         "desc": "Tascade is a gamified productivity frontend web app that turns task management into a fun, interactive game. Users organize tasks on a responsive scrum board, earn points for completing tasks, and unlock features like custom themes, and fonts.",
         "tech": ["Frontend", "HTML", "LocalStorage", "Bootstrap", "Responsive Design"],
         "category": "Web",
-        "color": "#f97316",
         "open_source": true
     },
     {

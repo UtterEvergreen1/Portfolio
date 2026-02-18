@@ -276,6 +276,14 @@ li {
     box-shadow: 0 0 1rem #ca6a27;
 }
 
+.steady-plan-btn {
+    --bs-btn-bg: #5b9aa0;
+    --bs-btn-hover-bg: #56b3bc;
+    --bs-btn-active-bg: #49c7d3;
+    --bs-btn-disabled-bg: #4e696c;
+    box-shadow: 0 0 1rem #52868a;
+}
+
 .project-card {
     border: 2px solid #4276b4;
     border-radius: 1rem;
@@ -304,6 +312,10 @@ li {
 
 .tascade-btn:hover {
     box-shadow: 0 0 2rem #dd6918;
+}
+
+.steady-plan-btn:hover {
+    box-shadow: 0 0 2rem #5caeb5;
 }
 
 .project-link:focus {
