@@ -285,11 +285,11 @@ li {
 }
 
 .peer-eval-btn {
-    --bs-btn-bg: #805b9a;
-    --bs-btn-hover-bg: #9a56bc;
-    --bs-btn-active-bg: #b349d3;
-    --bs-btn-disabled-bg: #6c4e69;
-    box-shadow: 0 0 1rem #8a5286;
+    --bs-btn-bg: #5d53de;
+    --bs-btn-hover-bg: #584bf8;
+    --bs-btn-active-bg: #493bff;
+    --bs-btn-disabled-bg: #665ec5;
+    box-shadow: 0 0 1rem #746aef;
 }
 
 .project-card {
@@ -327,7 +327,7 @@ li {
 }
 
 .peer-eval-btn:hover {
-    box-shadow: 0 0 2rem #b55cae;
+    box-shadow: 0 0 2rem #6b60fb;
 }
 
 .project-link:focus {
