@@ -284,6 +284,14 @@ li {
     box-shadow: 0 0 1rem #52868a;
 }
 
+.peer-eval-btn {
+    --bs-btn-bg: #805b9a;
+    --bs-btn-hover-bg: #9a56bc;
+    --bs-btn-active-bg: #b349d3;
+    --bs-btn-disabled-bg: #6c4e69;
+    box-shadow: 0 0 1rem #8a5286;
+}
+
 .project-card {
     border: 2px solid #4276b4;
     border-radius: 1rem;
@@ -316,6 +324,10 @@ li {
 
 .steady-plan-btn:hover {
     box-shadow: 0 0 2rem #5caeb5;
+}
+
+.peer-eval-btn:hover {
+    box-shadow: 0 0 2rem #b55cae;
 }
 
 .project-link:focus {
@@ -376,4 +388,3 @@ li {
     background-color: #738db7;
     border-color: #3970c2;
 }
-

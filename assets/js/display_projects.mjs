@@ -32,7 +32,9 @@ function getBadgesHtml(project) {
     if (Object.hasOwn(project, "featured") && project.featured === true)
         badgeHtml += '<span class="badge d-inline-block category-badge">Featured</span>';
 
-    badgeHtml += `<span class="badge d-inline-block category-badge">${project.category}</span>`;
+    for (let category of project.categories) {
+        badgeHtml += '<span class="badge d-inline-block category-badge">' + category + '</span>';
+    }
     project.tech.forEach(t => {
         badgeHtml += `<span class="badge d-inline-block tech-badge">${t}</span>`;
     });
@@ -54,7 +56,7 @@ function renderProjects(filter = "all") {
             $gridTitle.text("Featured Projects of Daniel Losso-Kiss");
             break;
         default:
-            filtered = projects.filter(p => p.category === filter);
+            filtered = projects.filter(p => p.categories.includes(filter));
             $gridTitle.text(filter.charAt(0).toUpperCase() + filter.slice(1) + " Projects of Daniel Losso-Kiss");
             break;
     }

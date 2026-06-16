@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Secure Role-Based Authentication",
+        "desc": "The application features a secure architecture that uses HTTPOnly cookies for JWT management, effectively blocking XSS attacks. Strict Role-Based Access Control (RBAC) ensures Students, Teachers, and Admins dynamically receive the correct frontend views and remain securely restricted from unauthorized Flask API routes.",
+        "img_src": "peer_role_based_access.png",
+        "img_caption": "Teacher Assignment UI showcasing role-based access control in action",
+        "p1": "Keeps JWTs locked safely away from malicious JavaScript",
+        "i1": "tabler-cloud-lock",
+        "p2": "Protects backend endpoints with custom Flask decorators",
+        "i2": "tabler-shield-check",
+        "p3": "Uses industry-standard password hashing and route validation",
+        "i3": "tabler-key"
+    },
+    {
+        "title": "Relational Database Design",
+        "desc": "Built with a flexible database foundation, the system uses SQLite for fast out-of-the-box development and PostgreSQL for rock-solid production. Powered by the SQLAlchemy ORM, the schema seamlessly handles deeply nested relationships linking students, group assignments, multi-row rubrics, and the actual reviews.",
+        "img_src": "peer_eval_schema.png",
+        "img_caption": "Database schema",
+        "p1": "Efficiently queries and manages complex many-to-many linkages",
+        "i1": "tabler-database-search",
+        "p2": "Uses Marshmallow schemas to serialize database objects into clean JSON",
+        "i2": "tabler-braces",
+        "p3": "Leverages declarative mapping to elegantly structure the database tables",
+        "i3": "tabler-progress-bolt"
+    },
+    {
+        "title": "React & TypeScript Frontend",
+        "desc": "The frontend is powered by React 18 and Vite, delivering an incredibly fast and responsive user experience. Strict TypeScript interfaces catch bugs long before runtime, while React Context handles global state management to seamlessly power accessibility features like dark mode.",
+        "img_src": "peer_eval_dashboard.png",
+        "img_caption": "Clean UI toggled in Dark Mode",
+        "p1": "Leverages Vite for optimized builds and instant HMR",
+        "i1": "tabler-blocks",
+        "p2": "TypeScript types are aligned perfectly with the backend schemas",
+        "i2": "tabler-schema",
+        "p3": "React Context manages app-wide global state and accessibility features",
+        "i3": "tabler-brightness"
+    },
+    {
+        "title": "Docker & GitHub Actions Setup",
+        "desc": "Designed with a container-first approach, the application runs exactly the same way locally as it does in production. Networked Docker containers isolate the UI, API, and database, while a GitHub Actions CI/CD pipeline automatically runs tests on every push to ensure maximum code reliability.",
+        "img_src": "github_actions.png",
+        "img_caption": "GitHub Actions workflow snippet",
+        "p1": "Maintains separate networked containers for the UI, API, and Database",
+        "i1": "tabler-brand-docker",
+        "p2": "GitHub Actions automatically triggers pytest to catch regressions on push",
+        "i2": "tabler-brand-github",
+        "p3": "Easily deployable to cloud platforms thanks to a stateless API design",
+        "i3": "tabler-cloud-upload"
+    }
+]
