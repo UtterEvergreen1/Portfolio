@@ -3,7 +3,7 @@
         "title": "Secure Role-Based Authentication",
         "desc": "The application features a secure architecture that uses HTTPOnly cookies for JWT management, effectively blocking XSS attacks. Strict Role-Based Access Control (RBAC) ensures Students, Teachers, and Admins dynamically receive the correct frontend views and remain securely restricted from unauthorized Flask API routes.",
         "img_src": "peer_role_based_access.png",
-        "img_caption": "Teacher Assignment UI showcasing role-based access control in action",
+        "img_caption": "Teacher Assignments UI showcasing role-based access control in action",
         "p1": "Keeps JWTs locked safely away from malicious JavaScript",
         "i1": "tabler-cloud-lock",
         "p2": "Protects backend endpoints with custom Flask decorators",
