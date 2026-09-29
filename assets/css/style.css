@@ -9,8 +9,13 @@ html, body {
     padding: 0;
 }
 
+:root {
+    --navbar-height: 6.25rem;
+    --project-icons-color: #ffffff;
+}
+
 main {
-    padding-top: 6.25rem;
+    padding-top: var(--navbar-height);
     margin-bottom: auto;
 }
 
@@ -30,7 +35,7 @@ main {
 }
 
 .disclaimer {
-    color: var(--bs-danger-border-subtle);
+    color: #e06c75;
     margin-bottom: 1rem;
 }
 
@@ -90,7 +95,7 @@ main {
 }
 
 .info-text {
-    color: #858a90;
+    color: #9f9f9f;
 }
 
 ol, ul, menu {
@@ -105,11 +110,11 @@ a {
 }
 
 a.nav-link {
-    color: #858a90;
+    color: #989898;
     font-size: 0.75rem;
 }
 
-.icon, .fa, .bi {
+.icon {
     width: 2rem;
     display: inline-block;
     font-size: 1.75rem;
@@ -119,14 +124,14 @@ a.nav-link {
 }
 
 .coming-soon-badge {
-    background: #c18a38;
+    background: #9a6e2c;
 }
 
 .open-source-badge {
-    background: #38c156;
+    background: #27873c;
 }
 
-.tech-badge {
+.category-badge {
     background: #8538c1;
 }
 
@@ -157,7 +162,7 @@ a.nav-link {
 }
 
 @media (min-width: 576px) {
-    .icon, .fa, .bi {
+    .icon {
         margin-right: 1rem;
     }
 }
@@ -175,7 +180,7 @@ a.nav-link {
 }
 
 @media (min-width: 768px) {
-    .icon, .fa, .bi {
+    .icon {
         margin-right: 0.5rem;
     }
 }
@@ -212,7 +217,7 @@ a.nav-link {
 }
 
 @media (min-width: 992px) {
-    .icon, .fa, .bi {
+    .icon {
         margin-right: 1rem;
     }
 }
@@ -231,7 +236,7 @@ li {
     border: none;
     width: 12.5rem;
     --bs-btn-border-radius: 2rem;
-    --bs-btn-color: #dbdbdb;
+    --bs-btn-color: #f0f0f0;
     --bs-btn-hover-color: #ffffff;
     --bs-btn-focus-shadow-rgb: 100, 100, 100;
 }
@@ -330,6 +335,19 @@ li {
     box-shadow: 0 0 2rem #6b60fb;
 }
 
+/* Generic disabled buttons: render opaque so the effective (opacity-blended)
+   contrast stays measurable and accessible instead of reading the page gradient. */
+/*.btn.disabled {*/
+/*    background-image: none !important;*/
+/*    --bs-btn-disabled-opacity: 1 !important;*/
+/*    opacity: 1 !important;*/
+/*    background-color: #5c636b !important;*/
+/*    --bs-btn-bg: #5c636b !important;*/
+/*    --bs-btn-disabled-bg: #5c636b !important;*/
+/*    --bs-btn-disabled-color: #ffffff !important;*/
+/*    color: #ffffff !important;*/
+/*}*/
+
 .project-link:focus {
     outline: none;
 }
@@ -354,24 +372,49 @@ li {
     background: #27262e;
 }
 
+.roadmap-card {
+    border: 2px solid #4276b4;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 100%;
+    background: #2a2930;
+    box-shadow: 0 0.25rem 0.5rem #2239b070;
+    transition: all 0.25s;
+}
+
+.roadmap-card:hover {
+    border-color: #9a6e2c;
+    box-shadow: 0 0.25rem 0.5rem #9a6e2c99;
+    background: #302f37;
+}
+
+.roadmap-btn {
+    --bs-btn-bg: #9a6e2c;
+    --bs-btn-hover-bg: #b8863a;
+    --bs-btn-active-bg: #a0742f;
+    --bs-btn-disabled-bg: #6f5220;
+    --bs-btn-disabled-color: #ffffff;
+    --bs-btn-disabled-opacity: 1;
+    --bs-btn-color: #ffffff;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-border-radius: 2rem;
+}
+
 .open-source-badge, .coming-soon-badge, .tech-badge, .category-badge {
     margin-right: 0.5rem;
 }
 
-.category-badge {
+.tech-badge {
     background: #be3b1f;
 }
 
 .filter-btn {
     background: #646c78;
     border: 2px solid transparent;
-    color: #d1dae7;
+    color: #eeeeee;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     user-select: none;
-}
-
-.filter-btn {
     outline: none;
     --bs-btn-active-color: #f2f6fb;
     --bs-btn-active-bg: #6c92cf;

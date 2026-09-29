@@ -3,12 +3,12 @@ function getHero(title, desc, img_src, img_caption, index, p1, i1, p2, i2, p3, i
     <div class="d-flex flex-column flex-md-row">
         <div class="col-12 col-md-7 d-flex flex-column order-last ${(index % 2 === 0) ? "order-md-first img-desc" : "align-items-end img-desc-right"}" data-aos="${(index % 2 === 0) ? "fade-right" : "fade-left"}">
             <figure class="figure d-flex flex-column align-items-start ${(index % 2 === 0) ? "" : "align-items-md-end"}">
-                <img class="img-fluid figure-img border rounded border-3" src="/assets/img/${img_src}"  alt="${img_src}" />
+                <img class="img-fluid figure-img border rounded border-3" src="/assets/img/${img_src}" alt="${img_caption || img_src}" />
                 <figcaption class="figure-caption text-start d-flex justify-content-start info-text">${img_caption}</figcaption>
             </figure>
         </div>
         <div>
-            <h3>${title}</h3>
+            <h2>${title}</h2>
             <p>${desc}</p>
             <ul>
                 <li>${i1}${p1}</li>
@@ -26,7 +26,7 @@ function getHeros(heros_data) {
     <div class="container-fluid">
         <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             ${heros_data.map((hero, i) => {
-                return getHero(hero.title, hero.desc, hero. img_src, hero.img_caption,
+                return getHero(hero.title, hero.desc, hero.img_src, hero.img_caption,
                     i, hero.p1, hero.i1, hero.p2, hero.i2, hero.p3, hero.i3);
                 }).join('\n')
             }

@@ -12,28 +12,14 @@ rendering engines, world converters, and desktop applications.
 
 ## Technology Stack
 
-### Built With
-
 - **Bootstrap Studio**: Visual design and layout tool
 - **Bootstrap 5.3.6**: CSS framework
 - **jQuery 3.7.0**: DOM manipulation and AJAX
 - **AOS 2.3.4**: Scroll animations
-- **Custom CSS**: Project-specific styling with color-coded themes
-
-### Key Files
-
-- `index.html` - Main landing page with project grid
-- `socials.html` - About page with social media links
-- Project pages:
-    - `seedra_project.html` - C++ API for Minecraft world generation
-    - `seedra_engine_project.html` - OpenGL-based world renderer
-    - `converter_project.html` - LCE to Java Edition converter
-    - `lmm_project.html` - Qt desktop application
 
 ## Project Structure
 
 ```
-build/
 ├── index.html              # Main landing page
 ├── socials.html            # Social media and about page
 ├── *_project.html          # Individual project pages

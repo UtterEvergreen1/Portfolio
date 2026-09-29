@@ -10,7 +10,7 @@ window.addEventListener('navbarLoaded', () => {
     });
 
     $nav.mouseleave(() => {
-        if ($(this).scrollTop() !== 0) {
+        if ($(window).scrollTop() !== 0) {
             $nav.addClass("scrolled");
         }
     });

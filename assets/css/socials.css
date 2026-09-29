@@ -28,7 +28,9 @@
 
 .follow-btn {
     border: none;
-    --bs-btn-color: #dbdbdb;
+    --bs-btn-color: #000000;
+    --bs-btn-disabled-color: #ffffff;
+    --bs-btn-disabled-opacity: 1;
     --bs-btn-bg: #3f74fb;
     --bs-btn-hover-color: #ffffff;
     --bs-btn-hover-bg: #2865ff;
