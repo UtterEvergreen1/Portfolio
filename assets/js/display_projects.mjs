@@ -18,8 +18,12 @@ async function displayProjects() {
 
     $(".filter-btn").each((index, btn) => {
         btn.addEventListener("click", () => {
-            document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove(active_filter_name));
+            document.querySelectorAll(".filter-btn").forEach(b => {
+                b.classList.remove(active_filter_name);
+                b.setAttribute("aria-checked", "false");
+            });
             btn.classList.add(active_filter_name);
+            btn.setAttribute("aria-checked", "true");
             renderProjects(btn.dataset.filter);
             renderRoadmap(btn.dataset.filter);
         });
